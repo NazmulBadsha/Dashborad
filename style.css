@@ -103,8 +103,11 @@ body {
       text-align: left;
     }
     .img1{
-      width: 100%;
-    height: auto;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #dbe4ed;
     }
     .mangrove1{
       text-align: center;
