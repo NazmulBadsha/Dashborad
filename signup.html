@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Registration Details </title>
+      <script>
+          function formvalid() {
+              var vaildpass = document.getElementById("pass").value;
+
+              if (vaildpass.length <= 8 || vaildpass.length >= 20) {
+                  document.getElementById("vaild-pass").innerHTML = "Minimum 8 characters";
+                  return false;
+              } else {
+                  document.getElementById("vaild-pass").innerHTML = "";
+              }
+          }
+          function show() {
+              var x = document.getElementById("pass");
+              if (x.type === "password") {
+                  x.type = "text";
+                  document.getElementById("showimg").src =
+                      "";
+              } else {
+                  x.type = "password";
+                  document.getElementById("showimg").src =
+                      "";
+              }
+          }
+      </script>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html"> Back Home</a>        
+        </div>
+      <div class="d-flex justify-content-center">
+
+      </div>
+      <div class="card">
+          <div class="card-header">
+              <h1>Registration Details</h1>
+          </div>
+          <div class="card-body">
+              <form>
+                  <div class="input-group">
+                      <input type="text" placeholder="Username" />
+                      <input type="text" placeholder="Pass"/>
+                      <button>Sign Up</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </body>
+</html>

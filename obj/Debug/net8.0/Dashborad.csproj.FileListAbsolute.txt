@@ -1,0 +1,7 @@
+D:\My cal APp\Dashborad\obj\Debug\net8.0\Dashborad.GeneratedMSBuildEditorConfig.editorconfig
+D:\My cal APp\Dashborad\obj\Debug\net8.0\Dashborad.AssemblyInfoInputs.cache
+D:\My cal APp\Dashborad\obj\Debug\net8.0\Dashborad.AssemblyInfo.cs
+D:\My cal APp\Dashborad\obj\Debug\net8.0\Dashborad.csproj.CoreCompileInputs.cache
+D:\My cal APp\Dashborad\obj\Debug\net8.0\Dashborad.MvcApplicationPartsAssemblyInfo.cache
+D:\My cal APp\Dashborad\obj\Debug\net8.0\Dashborad.RazorAssemblyInfo.cache
+D:\My cal APp\Dashborad\obj\Debug\net8.0\Dashborad.RazorAssemblyInfo.cs

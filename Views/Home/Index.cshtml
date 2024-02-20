@@ -1,0 +1,151 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="#login">Login</a>
+        <a href="#signup" class="active">Sign Up</a>
+
+
+    </div>
+
+    <div class="content">
+        <h2>The Mangrove Frorest</h2>
+        <p>
+            Mangrove forests are unique coastal ecosystems found in tropical and subtropical regions around the world. These forests are characterized by the presence of salt-tolerant trees, shrubs, and other vegetation that grow in intertidal zones, where land meets the sea.
+
+            Here are some key features and characteristics of mangrove forests:
+
+        </p>
+        <p>Salt-tolerant vegetation: Mangrove trees and plants have special adaptations to survive in salty water. They can filter out salt from the water they absorb and excrete it through their leaves or concentrate it in older leaves that are shed.
+
+        <p>Root systems: Mangrove trees have complex root systems that help them stabilize in the muddy, shifting substrate of coastal areas. These roots also serve to anchor the trees and provide support against strong winds and waves. Some mangrove species have pneumatophores, specialized roots that protrude above the water's surface to facilitate gas exchange in waterlogged soils.</p>
+
+        <p>Biodiversity: Mangrove forests are incredibly rich in biodiversity, supporting a wide variety of plant and animal species. They serve as nurseries and breeding grounds for many marine species, including fish, crustaceans, and mollusks. Birds, reptiles, and mammals also depend on mangroves for habitat and food.</p>
+        <p>Protection against erosion and storms: The dense root systems of mangrove trees help stabilize coastal sediments, reducing erosion caused by waves and currents. Mangroves also act as natural buffers against storm surges and tsunamis, helping to protect coastal communities from the impacts of extreme weather events.</p>
+
+        <h3>Despite their ecological and economic importance, mangrove forests face numerous threats, including deforestation, pollution, coastal development, and climate change. Conservation efforts are underway worldwide to protect and restore these valuable ecosystems for future generations..</h3>
+    </div>
+
+</body>
+</html>
